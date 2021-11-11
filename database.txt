@@ -1,0 +1,36 @@
+{
+    'database_path': './tests/databank',
+    'database': 
+        [
+            {
+                'name': 'obama',
+                'attribute': 
+                    [
+                        {
+                            'path': './tests/databank/obama/1.png',
+                            'emb': [1, 2, 3]
+                        },
+                        {
+                            'path': './tests/databank/obama/2.png',
+                            'emb': [4, 5, 6]
+                        }
+                    ],
+                'count': 1
+            }, 
+            {
+                'name': 'trump',
+                'attribute': 
+                    [
+                        {
+                            'path': './tests/databank/trump/1.png',
+                            'emb': [7, 8, 9]
+                        },
+                        {
+                            'path': './tests/databank/trump/2.png',
+                            'emb': [10, 11, 12]}
+                    ],
+                'count': 1
+            }, 
+                                
+        ]
+}
