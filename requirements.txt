@@ -1,0 +1,5 @@
+facenet_pytorch
+opencv-python
+pyaml
+easydict
+scipy

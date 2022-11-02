@@ -199,10 +199,10 @@ def main():
     # video_path = './tests/653205971.420371.mp4'
     # video_path = './tests/653205971.582914.mp4'
     # video_path = './tests/653205971.717960.mp4'
-    # video_path = './tests/obama_trump.mp4'
+    video_path = './tests/obama_trump.mp4'
     # video_path = './tests/production ID_5198159.mp4'
-    # cap = cv2.VideoCapture(video_path)
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(video_path)
+    # cap = cv2.VideoCapture(0)
     fourcc = cv2.VideoWriter_fourcc(*'XVID')
     writer = cv2.VideoWriter('output_5.avi', fourcc, 30.0, (int(cap.get(3)), int(cap.get(4))))
 
